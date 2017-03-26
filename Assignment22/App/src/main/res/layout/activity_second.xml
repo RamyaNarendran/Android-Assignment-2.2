@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramya.assignment22.SecondActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:text="I changed the icon and renamed the application"
+        android:textSize="30sp"
+        android:textColor="#ff44"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_height="500dp"
+        android:layout_width="400dp"
+        android:text="(I'm loving Android, thanks Acadgild)"
+        android:textSize="16sp"
+        android:textColor="#a988e4"
+        android:paddingLeft="120dp"
+        android:paddingTop="480dp" />
+
+</android.support.constraint.ConstraintLayout>
